@@ -1,1 +1,2 @@
-# ShopGB
+# ShopGBls
+Completing the second task
