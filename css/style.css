@@ -51,6 +51,7 @@ body {
     margin: 0 0 0 33px;
 }
 
+
 .header__menu-list {
     display: flex;
     align-items: center;
@@ -58,7 +59,7 @@ body {
 
 .main__registration {
     background: #F8F3F4;
-    height: 148px;
+    min-height: 148px;
 }
 
 .main__registration-title {
@@ -67,7 +68,167 @@ body {
     line-height: 29px;
     color: #F16D7F;
     text-transform: uppercase;
-    padding: 59px 0 60px 230px;
+    padding: 59px 0 60px;
+}
+
+.form__text-input{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    padding-top: 64px;
+}
+
+.form__input-text-one{
+    width: 360px;
+    height: 45px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    box-sizing: border-box;
+    padding-left: 17px;
+}
+
+.form__input-text-two{
+    width: 360px;
+    height: 45px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 21px;
+    box-sizing: border-box;
+    padding-left: 17px;
+    margin-bottom: 31px;
+}
+
+.form__input-radio-male{
+    margin-right: 54px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.form__input-radio-female{
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.form__text-input-registration{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 33px;
+    margin-bottom: 21px;
+}
+
+.form__input-text-email{
+    width: 360px;
+    height: 45px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    box-sizing: border-box;
+    padding-left: 17px;
+}
+
+.form__input-text-password{
+    width: 360px;
+    height: 45px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 21px;
+    box-sizing: border-box;
+    padding-left: 17px;
+}
+
+.form__text-input-form{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 359px;
+    margin: 15px 0 39px 0;
+}
+
+.form__registration{
+    display: flex;
+}
+
+.form__registration-list{
+    display: inline-block;
+}
+
+.benefits {
+    margin-left: 128px;
+    margin-top: 64px;
+}
+
+.benefits__title{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-transform: uppercase
+}
+
+.benefits__text{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin: 22px 0 21px;
+}
+
+
+
+.benefits__item{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px;
+    }
+
+
+.benefits__item{
+position: relative;
+}
+
+.benefits__item:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: -44px;
+    background-image: url(../img/check.svg);
+    
+}
+    
+.button__input {
+    display: inline-block;
+}
+
+.button__input-registration{
+    color: #F26376;
+    border: 1px solid #FF6A6A;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16px 66px 17px 29px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 96px;
 }
 
 .header__burger {
@@ -143,7 +304,7 @@ body {
 }
 
 .sales__item-women {
-    background-image: url(img/women-sales.jpg);
+    background-image: url(../img/women-sales.jpg);
 
 }
 
@@ -162,15 +323,15 @@ body {
 }
 
 .sales__item--men {
-    background-image: url(img/Men-hot.jpg);
+    background-image: url(../img/Men-hot.jpg);
 }
 
 .sales__item--kids {
-    background-image: url(img/Kids.jpg);
+    background-image: url(../img/Kids.jpg);
 }
 
 .sales__item--accesories {
-    background-image: url(img/accesories.jpg);
+    background-image: url(../img/accesories.jpg);
     width: 100%;
     margin: 30px 0 97px 0;
     height: 180px;
@@ -249,12 +410,11 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #F26376;
     padding: 14px 38px 13px 38px;
     border: 1px solid #FF6A6A;
-    background-color: #FFFFFF;
     text-decoration: none;
     display: inline-block;
+    color: #F26376;
 }
 
 .advantages {
@@ -325,7 +485,7 @@ body {
 
 .footer {
     background-image: url(../img/footer-subscribe.jpg);
-    height: 448px;
+    min-height: 448px;
     background-repeat: no-repeat;
     flex-grow: 1;
     background-size: cover;
@@ -388,7 +548,7 @@ body {
     min-height: 79px;
 }
 
-.footer__reserved-block-1 {
+.footer__reserved-block {
     justify-content: space-between;
     display: flex;
 }
@@ -399,6 +559,10 @@ body {
     line-height: 19px;
     color: #FBFBFB;
     padding-top: 30px;
+}
+
+.footer__list{
+    margin-top: 24px;
 }
 
 .foter__reserwed-block-2 {
